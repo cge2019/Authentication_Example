@@ -1,3 +1,4 @@
+// \public\js\services\NerdService.js
 angular.module('NerdService', []).factory('Nerd', ['$http', function($http){
 	return {
 		//call to get all nerds
